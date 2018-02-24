@@ -1,0 +1,228 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+
+p{
+	padding:0px;
+	margin:0px;
+}
+
+.p-0{
+	padding: 0;
+}
+
+body {
+	height: 6500px;
+}
+
+.carousel-indicators li {
+	margin-right: 5px;
+	width:5%;
+	height: 4px;
+	background-color: white; /* Цвет фона индикаторов */
+	border: 0px solid white; /* Цвет бордюра индикаторов */
+	border-radius: 0px;
+}
+.carousel-indicators .active {
+	margin-right: 5px;
+	width:5%;
+	height: 4px;
+	background-color: #e92e49; /* Цвет фона индикаторов */
+	border: 0px solid white; /* Цвет бордюра индикаторов */
+	border-radius: 0px;
+}
+
+.b-a-f{
+	-webkit-background-size: cover;
+	background-size: 100%; /* Современные браузеры */
+	overflow: hidden;
+	background-repeat: no-repeat;
+	height: 650px;
+	background: url(../img/dost.jpg);
+	background-attachment: fixed;
+	
+}
+
+.bg-red{
+	color:#e92e49;
+}
+
+.top-ph-ba{
+	position: fixed;
+	width:100%;
+	z-index: 99999;
+}
+
+.c-r {
+	background-color: #2f3542;
+	height: 70px;
+	
+}
+
+.z-index-0{
+	z-index: -1;
+	padding-top: 70px;
+}
+
+.bas{
+	margin-top: 17px;
+	width: 38px;
+	z-index: 9;
+	float:left;
+}
+
+.phone{
+    width: 20px;
+    z-index: 9;
+    margin-right: 10px;
+    margin-top: 6px;
+}
+
+.f-w{
+	color:white;
+	cursor:pointer;
+	font-weight:bold;
+}
+
+.f-w:link{
+	color: white; 
+	cursor:pointer;
+	font-weight:bold;
+}
+.f-w:visited {
+	color: white; 
+	cursor:pointer;
+	font-weight:bold;
+}
+.f-w:hover{
+	cursor:pointer;
+	color: white; 
+	font-weight:bold;
+}
+
+.corz{
+	
+    margin-left: 51px;
+    margin-top: 25px;
+}
+
+.align-r
+{
+	padding-top: 5px;
+	text-align: right;
+}
+
+.phon{
+	float:right;
+}
+
+.f-r {
+	color: #e92e49;
+    text-decoration: none;
+    font-weight: bold;
+	font-size: 18pt;
+}
+
+.f-r:link{
+	color: #e92e49;
+    text-decoration: none;
+    font-weight: bold;
+	font-size: 18pt;
+}
+.f-r:visited {
+	color: #e92e49;
+    text-decoration: none;
+    font-weight: bold;
+	font-size: 18pt;
+}
+.f-r:hover{
+	color: #e92e49;
+    text-decoration: none;
+    font-weight: bold;
+	font-size: 18pt;
+}
+
+.zacz{
+	margin-top: 3px;
+}
+
+.h-32px{
+	height:32px;
+}
+
+.logoDiv{
+	background: url(../img/dost.jpg);
+	background-attachment: fixed;
+	height: 70px;
+	text-align:center;
+}
+
+.logoP{
+	  font-size: 22pt;
+	  font-family: "Bell MT";
+	  color: #d3d3d3;
+	  z-index: 98;
+}
+
+.logoP2{
+	  margin-top: -13px;
+	  font-size: 24pt;
+	  font-family: "Bell MT";
+	  color: White;
+	  font-weight: bold;
+	  z-index: 98;
+}
+
+div.menu p {
+	text-align:center;
+	padding-top:16px;
+	height:55px;
+	font-family: "Arial";
+	font-weight: bold;
+
+}
+
+#a-menu{
+	color: #e92e49;
+	font-weight: b;
+	text-align:center;
+	padding-top:16px;
+	height:55px;
+	font-family: "Arial";
+}
+
+#a-menu:hover{
+	color: White;
+}
+
+div.menu div{
+	padding:0px;
+	margin:0px;
+	color: White;
+}
+
+.menu {
+	background-color:#2f3542;
+}
+
+.abord{
+	height: 7px;
+	width: 100%;
+	background-color: #e92e49;
+}
+
+.bord{
+	height: 7px;
+	width: 100%;
+	background-color: none;
+}
+
+.select:hover {
+	background-color: #e92e49;
+}
+
+.selectA:hover {
+	background-color: #e92e49;
+	color: white;
+}
