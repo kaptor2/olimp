@@ -34,15 +34,6 @@ body {
 	border-radius: 0px;
 }
 
-.b-a-f{
-	-webkit-background-size: cover;
-	background-size: 100%; /* Современные браузеры */
-	overflow: hidden;
-	background-repeat: no-repeat;
-	background: url(../img/dost.jpg);
-	background-attachment: fixed;
-	
-}
 
 .bg-red{
 	color:#e92e49;

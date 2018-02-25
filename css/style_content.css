@@ -1,14 +1,31 @@
 .nahval{
-	height:465px;
+	
 	border-radius:15px;
 	background-color:#2f3542;
 	margin:0px auto;
 	text-align:center;
-	width:360px;
+	float: left;
+	height: 260px;
+	width: 230px;
 }
 
 .n1{
+	float: left;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
 
+.b-a-f{
+	background: url(../img/dost.jpg);
+	background-attachment: fixed;
+	padding-top: 50px;
+
+	text-align: center;
+}
+
+.blockckontent{
+	display:table;
+	margin: auto;
 }
 
 .otst{
