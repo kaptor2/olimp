@@ -196,6 +196,24 @@ div.menu p {
 
 }
 
+.menu2{
+	height:44px;
+	background-color: #2f3542;
+	text-align: right;
+	
+}
+
+.drop-but{
+	float:right;
+	height:44px;
+	width:44px;
+	background: url(../img/dropBut.png);
+}
+
+.drop-but:hover{
+	background: url(../img/dropButTap.png);
+}
+
 #a-menu{
 	color: #e92e49;
 	font-weight: b;
@@ -238,4 +256,24 @@ div.menu div{
 .selectA:hover {
 	background-color: #e92e49;
 	color: white;
+}
+
+.smol-menu div p{
+	height: 30px;
+	text-align:center;
+	padding-top: 5px;
+	color:white;
+	font-weight:bold;
+}
+
+.folse-menu{
+	display: none;
+}
+
+#sel-xs{
+	color: #e92e49;
+}
+
+#sel-xs:hover{
+	color: White;
 }
