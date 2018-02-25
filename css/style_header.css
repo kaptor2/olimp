@@ -38,7 +38,6 @@ body {
 	background-size: 100%; /* Современные браузеры */
 	overflow: hidden;
 	background-repeat: no-repeat;
-	height: 650px;
 	background: url(../img/dost.jpg);
 	background-attachment: fixed;
 	
@@ -52,17 +51,29 @@ body {
 	position: fixed;
 	width:100%;
 	z-index: 99999;
+	top: 0px;
+}
+
+.active1{
+	margin-top: -70px;
+	transition-property: margin-top;
+	transition-duration: 1s;
+}
+
+.activeNon{
+	margin-top: 0px;
+	transition-property: margin-top;
+	transition-duration: 1s;
 }
 
 .c-r {
-	background-color: #2f3542;
+	background-color: RGBA(0,0,0,0.5);
 	height: 70px;
 	
 }
 
 .z-index-0{
 	z-index: -1;
-	padding-top: 70px;
 }
 
 .bas{
@@ -121,26 +132,26 @@ body {
 	color: #e92e49;
     text-decoration: none;
     font-weight: bold;
-	font-size: 18pt;
+	font-size: 1.5em;
 }
 
 .f-r:link{
 	color: #e92e49;
     text-decoration: none;
     font-weight: bold;
-	font-size: 18pt;
+	font-size: 1.5em;
 }
 .f-r:visited {
 	color: #e92e49;
     text-decoration: none;
     font-weight: bold;
-	font-size: 18pt;
+	font-size: 1.5em;
 }
 .f-r:hover{
 	color: #e92e49;
     text-decoration: none;
     font-weight: bold;
-	font-size: 18pt;
+	font-size: 1.5em;
 }
 
 .zacz{
@@ -152,14 +163,14 @@ body {
 }
 
 .logoDiv{
-	background: url(../img/dost.jpg);
 	background-attachment: fixed;
 	height: 70px;
 	text-align:center;
+	background-color: RGBA(0,0,0,0.5);
 }
 
 .logoP{
-	  font-size: 22pt;
+	  font-size: 2em;
 	  font-family: "Bell MT";
 	  color: #d3d3d3;
 	  z-index: 98;
@@ -167,7 +178,7 @@ body {
 
 .logoP2{
 	  margin-top: -13px;
-	  font-size: 24pt;
+	  font-size: 2em;
 	  font-family: "Bell MT";
 	  color: White;
 	  font-weight: bold;
