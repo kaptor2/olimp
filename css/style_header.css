@@ -214,6 +214,15 @@ div.menu p {
 	background: url(../img/dropButTap.png);
 }
 
+
+.drop-but:link{
+	background: url(../img/dropBut.png);
+}
+.drop-but:visited {
+	background: url(../img/dropBut.png);
+}
+
+
 #a-menu{
 	color: #e92e49;
 	font-weight: b;
