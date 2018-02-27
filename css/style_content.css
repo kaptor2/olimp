@@ -1,12 +1,12 @@
 .nahval{
+    border-radius: 15px;
+    background-color: #2f3542;
+    margin: 0px auto;
+    text-align: center;
+    float: left;
+    height: 260px;
+    width: 230px;
 	
-	border-radius:15px;
-	background-color:#2f3542;
-	margin:0px auto;
-	text-align:center;
-	float: left;
-	height: 260px;
-	width: 230px;
 }
 
 .n1{
@@ -15,17 +15,27 @@
 	padding-bottom: 20px;
 }
 
+.n1 p{
+    color: white;
+    font-weight: bold;
+    margin-top: 22px;
+    font-size: 1.2em;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .b-a-f{
 	background: url(../img/dost.jpg);
 	background-attachment: fixed;
 	padding-top: 50px;
-
 	text-align: center;
+	overflow-x: scroll;
 }
 
 .blockckontent{
 	display:table;
 	margin: auto;
+	width: 760px;
 }
 
 .otst{
@@ -34,6 +44,28 @@
 }
 
 .img-hv{
-	
+	padding-top:14px;
+}
+
+
+::-webkit-scrollbar{
+    width:12px;
+}
+
+::-webkit-scrollbar-thumb{
+    border-width:1px 1px 1px 2px;
+    border-color: #777;
+    background-color: #aaa;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    border-width: 1px 1px 1px 2px;
+    border-color: #555;
+    background-color: #e92e49;
+}
+
+::-webkit-scrollbar-track{
+    border-width:0;
+	background-color: #1c1f27;
 }
 
