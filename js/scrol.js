@@ -19,3 +19,15 @@ function lololo() {
     $('.smol-menu p').fadeTo(300)
     $('.smol-menu').slideToggle(300)
  }
+ 
+ $(function(){
+    $(window).resize(function() {
+          $(".s-lider-i").height( ($(window).height() - 70) / 1.5);
+    })
+});
+
+ $(function(){
+    $(window).ready(function() {
+          $(".s-lider-i").height( ($(window).height() - 70) / 1.5);
+    })
+});

@@ -12,7 +12,7 @@
 .n1{
 	float: left;
 	padding-left: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 50px;
 }
 
 .n1 p{
@@ -40,7 +40,7 @@
 
 .otst{
 	margin-top: 51px;
-    margin-bottom: 32px;
+    margin-bottom: 51px;
 }
 
 .img-hv{
@@ -66,6 +66,59 @@
 
 ::-webkit-scrollbar-track{
     border-width:0;
-	background-color: #1c1f27;
+	background-color: RGBA(0,0,0,0);
 }
+
+.red-separ{
+	height: 74px;
+    background-color: #e92e49;
+    float: right;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+	text-align: center;
+}
+
+.red-separ p{
+    height: 74px;
+    position:absolute; 
+	padding-top: 18px;
+}
+
+.black-separ{
+	height:74px;
+	text-align:right;
+	background: url(../img/dost.jpg);
+	background-attachment: fixed;
+}
+
+.imgSep{
+    height: 216px;
+    float: right;
+    margin-top: -34px;
+}
+
+.w-separ{
+	height:37px;
+	background-color:white;
+}
+
+.s-lider-i{
+	color:white;
+	padding-left:15%
+}
+
+.s-lider-i h1{
+	margin:0;
+	padding-top:5%;
+	font-size:4em;
+	padding-bottom:2%;
+}
+
+.s-lider-i p{
+	margin:0;
+	font-size:2em;
+	height: 28px;
+}
+
 
