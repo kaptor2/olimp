@@ -104,6 +104,8 @@ body {
 	cursor:pointer;
 	color: white; 
 	font-weight:bold;
+	transition-property: color;
+	transition-duration: 1s;
 }
 
 .corz{
@@ -146,6 +148,9 @@ body {
     text-decoration: none;
     font-weight: bold;
 	font-size: 1.5em;
+	transition-property: color;
+	transition-duration: 1s;
+	
 }
 
 .zacz{
@@ -204,6 +209,8 @@ div.menu p {
 
 .drop-but:hover{
 	background: url(../img/dropButTap.png);
+	transition-property: background;
+	transition-duration: 1s;
 }
 
 
@@ -226,6 +233,8 @@ div.menu p {
 
 #a-menu:hover{
 	color: White;
+	transition-property: color;
+	transition-duration: 1s;
 }
 
 div.menu div{
@@ -252,11 +261,15 @@ div.menu div{
 
 .select:hover {
 	background-color: #e92e49;
+	transition-property: background-color;
+	transition-duration: 0.5s;
 }
 
 .selectA:hover {
 	background-color: #e92e49;
 	color: white;
+	transition-property: background-color;
+	transition-duration: 0.5s;
 }
 
 .smol-menu div p{
@@ -279,4 +292,10 @@ div.menu div{
 
 #sel-xs:hover{
 	color: White;
+	transition-property: color;
+	transition-duration: 0.5s;
+}
+
+.menu-top{
+	margin-top:70px;
 }
